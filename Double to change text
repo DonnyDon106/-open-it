@@ -2,15 +2,13 @@
 <html>
 <head>
 </head>
-
 <body>
-<h1 id = "heading"> Hello world :):) </h1>
-<h2> Double Click the text "Hello world" to see the effect. </h2>
-<p> This is an example of creating the double click event using JavaScript. </p>
+<h1 id = "h"> Hello</h1>
+<h2> Double Click the text "Hello" to see the effect. </h2>
 <script>
-document.getElementById("heading").ondblclick = function() { fun() };
-function fun() {
-document.getElementById("heading").innerHTML = " Welcome to the javaTpoint.com ";
+document.getElementById("h").ondblclick = function() { func() };
+function func() {
+document.getElementById("h").innerHTML = " hello world ";
 }
 </script>
 </body>
